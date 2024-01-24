@@ -12,6 +12,7 @@ def add_to_order(item):
     if item in menu:
         order.append(item)
         print(f"{item} dodano do zamowienia.")
+        
     else:
         print(f"{item} nie jest dostepny w menu.")
 
